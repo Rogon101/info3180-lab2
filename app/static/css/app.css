@@ -1,3 +1,57 @@
+
 body {
     padding-top: 5rem;
+}
+
+/* Profile CSS */
+#profile {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 40rem;
+    margin: auto ;
+    display: block;
+    text-align: center;
+}
+
+#bio-head {
+    border-radius: .3rem .3rem 0 0;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    background-color: green;
+}
+
+#profile-picture {
+    max-height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+#profile-text {
+    margin-top: 1.1rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    color: white;
+}
+
+#bio-body {
+    padding: 0.5rem 2rem;
+    text-align: center;
+}
+
+#name {
+    font-weight: bold;
+}
+
+.bot {
+    background-color: white;
+    padding: 0;
+    
+}
+ 
+.btn{
+    background-color: limegreen;
+    color: white;
+    font-weight: bold;
+    padding: .35rem 2.0rem;
+    border-radius: .45rem;
 }

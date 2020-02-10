@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div id="profile" class="bot">
+    <div id="bio-head">
+        <img id="profile-picture" class="rounded-circle" src="{{ url_for('static',filename='profile.png') }}" alt="Profile Picture">
+        <div id="profile-text">
+            <h3 id="name">Rogerio Jones</h3>
+            <h5 id="username">@Rogon101</h5>
+            <h5 id="location">Kingson, Jamaica</h5>
+            <h5 id="join_date">Joined {{ dateJoined }}</h5>
+        </div>
+    </div>
+    <div id="bio-body">
+        <p id="bio-text" class="text">
+            My name is Rogerio Jones, and I'm getting better everyday.
+        </p>
+        <div id="stats" class="container">
+            <div class="row">                
+                <div class="col">
+                    <h5 class="stats-top">7</h5>
+                    <p>Posts</p>
+                </div>
+                <div class="col">
+                    <h5 class="stats-top">123</h5>
+                    <p>Following</p>
+                </div>
+                <div class="col">
+                    <h5 class="stats-top">400</h5>
+                    <p>Followers</p>
+                </div>
+            </div> 
+        </div>
+        <div>
+            <button class="btn" id="follow-btn">Follow</button>
+        </div>
+    </div>
+</div>
+
+{% endblock %} 
